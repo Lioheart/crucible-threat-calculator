@@ -2,9 +2,9 @@
   "id": "crucible-threat-calculator",
   "title": "Crucible Threat Calculator",
   "description": "Adds a live Party vs. Adversary threat meter to the Combat Tracker for the Crucible game system, rating the encounter as Trivial, Easy, Moderate, Hard, or Deadly.",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "compatibility": {
-    "minimum": "13",
+    "minimum": "14",
     "verified": "14"
   },
   "relationships": {
@@ -29,7 +29,7 @@
   ],
   "authors": [
     {
-      "name": "Your Name"
+      "name": "xinsys"
     }
   ],
   "url": "",
