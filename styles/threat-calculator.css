@@ -1,0 +1,104 @@
+.threat-meter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  margin-top: 4px;
+  padding: 0 4px;
+  font-size: 12px;
+}
+
+.threat-meter .threat-value {
+  flex: 1;
+  color: var(--color-tertiary, #b6967c);
+}
+
+.threat-meter .threat-adversary {
+  text-align: right;
+}
+
+.threat-rating-control {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.threat-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--color-text-emphatic, #fff);
+  background: var(--rating-color, var(--color-frame, #3f3128));
+  border: 1px solid var(--color-frame, #3f3128);
+}
+
+button.threat-rating {
+  cursor: pointer;
+  font: inherit;
+}
+
+button.threat-rating:hover {
+  filter: brightness(1.15);
+}
+
+button.threat-rating i {
+  font-size: 10px;
+  opacity: 0.85;
+}
+
+.threat-rating-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 4px 0 0;
+  padding: 4px;
+  list-style: none;
+  min-width: 120px;
+  background: var(--color-frame-bg, #1c1a1a);
+  border: 1px solid var(--color-frame, #3f3128);
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 50%);
+}
+
+.threat-rating-menu.open {
+  display: block;
+}
+
+.threat-rating-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.threat-rating-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 4px 6px;
+  border: none;
+  background: none;
+  color: var(--color-text, #eee8df);
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.threat-rating-option:hover {
+  background: var(--color-frame-bg-75, rgb(28 26 26 / 75%));
+}
+
+.threat-swatch {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--rating-color);
+}

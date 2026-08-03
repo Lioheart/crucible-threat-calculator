@@ -1,0 +1,18 @@
+{
+  "CRUCIBLE_THREAT": {
+    "DIFFICULTY": {
+      "Trivial": "Trivial",
+      "Easy": "Easy",
+      "Moderate": "Moderate",
+      "Hard": "Hard",
+      "Deadly": "Deadly"
+    },
+    "Party": "Party {threat}",
+    "Adversary": "Adversaries {threat}",
+    "Tooltip": "Adversary threat compared against Party threat (Heroes + allies). GMs can click the rating to rescale adversaries.",
+    "NoPartyWarning": "No Party threat detected — add Heroes or allies to the encounter first.",
+    "NoAdversariesWarning": "No hostile Adversaries in this encounter to rescale.",
+    "AlreadyAtTarget": "Adversaries are already close enough to that difficulty.",
+    "AppliedNotify": "Adversaries rescaled (rank & level) to target a {band} encounter."
+  }
+}
